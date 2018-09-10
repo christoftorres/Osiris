@@ -1,0 +1,18 @@
+{
+ "execution_paths": "45", 
+ "callstack": true, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "29.1515820026", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\nOpcode: SUB\nInput: [324 + 64*Id_7, 128 + 32*Id_7]\nOutput: [196 + 32*Id_7]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

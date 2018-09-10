@@ -1,0 +1,22 @@
+{
+ "execution_paths": "69", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "33.1244590282", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": "\nOpcode: SUB\nInput: [Ia_store_3, Id_9]\nOutput: [Ia_store_3 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_9]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_53137308823555371993335774651862683562535834993463294725866731580948756174549, Id_8]\nOutput: [Ia_store_53137308823555371993335774651862683562535834993463294725866731580948756174549 +\nId_8]\nOpcode: ADD\nInput: [Ia_store_3, Id_8]\nOutput: [Ia_store_3 + Id_8]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

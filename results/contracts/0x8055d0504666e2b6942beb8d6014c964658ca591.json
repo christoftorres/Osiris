@@ -1,0 +1,21 @@
+{
+ "execution_paths": "60", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "105.21666503", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": "\nOpcode: SUB\nInput: [96 + Id_19, 96]\nOutput: [Id_19]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [96, Id_19]\nOutput: [96 + Id_19]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

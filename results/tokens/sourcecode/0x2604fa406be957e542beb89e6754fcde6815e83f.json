@@ -1,0 +1,92 @@
+{"BasicToken":{
+ "execution_paths": "11", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.473293066025", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"Math":{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.00693106651306", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"PKT":{
+ "execution_paths": "95", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "6.61573696136", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x2604fa406be957e542beb89e6754fcde6815e83f.sol:PKT:237:13\ntotalSupply + _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x2604fa406be957e542beb89e6754fcde6815e83f.sol:PKT:240:5\ntotalSupply += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x2604fa406be957e542beb89e6754fcde6815e83f.sol:PKT:239:5\nbalances[_holder] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"SafeMath":{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.00768303871155", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "28", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.58824706078", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

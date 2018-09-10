@@ -1,0 +1,18 @@
+{
+ "execution_paths": "126", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "506.958051205", 
+ "signedness": "\nOpcode: SLT\nInput: [mem_[320], Ia_store_4]\nOutput: [If(Ia_store_4 <= mem_[320], 0, 1)]\nOpcode: SGT\nInput: [Id_8, 170141183460469231731687303715884105727L]\nOutput: [If(Id_8 <= 170141183460469231731687303715884105727, 0, 1)]\nOpcode: SGT\nInput: [Id_2, 170141183460469231731687303715884105727L]\nOutput: [If(Id_2 <= 170141183460469231731687303715884105727, 0, 1)]\nOpcode: SGT\nInput: [Id_3, 170141183460469231731687303715884105727L]\nOutput: [If(Id_3 <= 170141183460469231731687303715884105727, 0, 1)]", 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

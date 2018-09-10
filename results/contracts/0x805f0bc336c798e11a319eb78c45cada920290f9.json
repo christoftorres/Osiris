@@ -1,0 +1,32 @@
+{
+ "execution_paths": "53", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "59.9592971802", 
+ "signedness": false, 
+ "evm_code_coverage": "98.9", 
+ "underflow": "\nOpcode: SUB\nInput: [Id_6, Ia_store_6]\nOutput: [Id_6 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nIa_store_6]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH1 0x00 ", 
+  "PUSH1 0x08 ", 
+  "PUSH2 0x0719 ", 
+  "SSTORE ", 
+  "JUMPDEST ", 
+  "DUP3 ", 
+  "PUSH1 0x00 ", 
+  "EQ ", 
+  "ISZERO ", 
+  "PUSH2 0x0725 ", 
+  "JUMPI ", 
+  "JUMP ", 
+  "JUMPDEST "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_5, Ia_store_41000434874092001860101036680012757921154163419691343780437708223281965291251]\nOutput: [Id_5 +\nIa_store_41000434874092001860101036680012757921154163419691343780437708223281965291251]\nOpcode: ADD\nInput: [Id_6 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nIa_store_6, Ia_store_6]\nOutput: [Id_6]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

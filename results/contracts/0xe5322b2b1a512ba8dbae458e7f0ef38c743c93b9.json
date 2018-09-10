@@ -1,0 +1,22 @@
+{
+ "execution_paths": "12", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "29.2614281178", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH6 0x2f1f9289dc41 ", 
+  "INVALID 0x1c ", 
+  "INVALID 0xf7 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

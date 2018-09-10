@@ -1,0 +1,18 @@
+{
+ "execution_paths": "26", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "31.4943289757", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [IH_i, Id_6]\nOutput: [IH_i + Id_6]\nOpcode: ADD\nInput: [IH_i, Id_6]\nOutput: [IH_i + Id_6]\nOpcode: ADD\nInput: [IH_i, Id_6]\nOutput: [IH_i + Id_6]\nOpcode: ADD\nInput: [IH_i, Id_6]\nOutput: [IH_i + Id_6]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

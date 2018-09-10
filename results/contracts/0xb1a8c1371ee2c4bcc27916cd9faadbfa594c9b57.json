@@ -1,0 +1,18 @@
+{
+ "execution_paths": "50", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "9.44654989243", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [128, Id_8]\nOutput: [128 + Id_8]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

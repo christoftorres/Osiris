@@ -1,0 +1,32 @@
+{
+ "execution_paths": "124", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_2 + Concat(0, Extract(255, 5, Id_2)), some_var_22]\nOutput: [bvudiv_i(Ia_store_2 + Concat(0, Extract(255, 5, Id_2)),\n         some_var_22)]", 
+ "execution_time": "16.346517086", 
+ "signedness": false, 
+ "evm_code_coverage": "99.1", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "INVALID 0xae ", 
+  "INVALID 0xc1 ", 
+  "STOP ", 
+  "LOG2 ", 
+  "INVALID 0x46 ", 
+  "CALLDATASIZE ", 
+  "INVALID 0xc1 ", 
+  "DUP15 ", 
+  "PUSH20 0x457917a92dad223d797b84c2f7a4bdd82892f15a ", 
+  "INVALID 0xb7 ", 
+  "DUP13 ", 
+  "INVALID 0x4c ", 
+  "INVALID 0xd9 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [255, bvudiv_i(Ia_store_2 + Concat(0, Extract(255, 5, Id_2)),\n         some_var_22)]\nOutput: [Concat(0,\n       Extract(7,\n               0,\n               bvudiv_i(Ia_store_2 + Concat(0, Extract(255, 5, Id_2)),\n                        some_var_22)))]"
+}

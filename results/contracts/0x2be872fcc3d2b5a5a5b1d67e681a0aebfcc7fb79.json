@@ -1,0 +1,24 @@
+{
+ "execution_paths": "106", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1151.21205711", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "STOP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "JUMP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_7, Id_17]\nOutput: [Ia_store_7 + Id_17]\nOpcode: MUL\nInput: [Id_19, Id_17]\nOutput: [Id_17*Id_19]\nOpcode: ADD\nInput: [Ia_store_5, Id_17]\nOutput: [Ia_store_5 + Id_17]\nOpcode: ADD\nInput: [Ia_store_3, Id_17]\nOutput: [Ia_store_3 + Id_17]\nOpcode: ADD\nInput: [Ia_store_7, Id_17]\nOutput: [Ia_store_7 + Id_17]\nOpcode: ADD\nInput: [Ia_store_3, Id_17]\nOutput: [Ia_store_3 + Id_17]\nOpcode: ADD\nInput: [Ia_store_5, Id_17]\nOutput: [Ia_store_5 + Id_17]\nOpcode: MUL\nInput: [Id_18, Id_17]\nOutput: [Id_17*Id_18]\nOpcode: ADD\nInput: [Ia_store_6*Ia_store_7, Id_17*Id_19]\nOutput: [Ia_store_6*Ia_store_7 + Id_17*Id_19]\nOpcode: ADD\nInput: [Ia_store_4*Ia_store_5, Id_17*Id_18]\nOutput: [Ia_store_4*Ia_store_5 + Id_17*Id_18]\nOpcode: ADD\nInput: [Ia_store_5752701748320400503520162393011216748809247890415423680920001592319951482493, Id_17]\nOutput: [Ia_store_5752701748320400503520162393011216748809247890415423680920001592319951482493 +\nId_17]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

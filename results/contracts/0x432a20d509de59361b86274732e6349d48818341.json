@@ -1,0 +1,18 @@
+{
+ "execution_paths": "7", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [10000*IH_d +\n115792089237316195423570985008687907853269984665640564039457584007913129629936*\nConcat(0, Extract(63, 0, Id_4)), Concat(0,\n       Extract(63, 0, Id_5) +\n       18446744073709551615*Extract(63, 0, Id_4))]\nOutput: [bvudiv_i(10000*IH_d +\n         115792089237316195423570985008687907853269984665640564039457584007913129629936*\n         Concat(0, Extract(63, 0, Id_4)),\n         Concat(0,\n                Extract(63, 0, Id_5) +\n                18446744073709551615*Extract(63, 0, Id_4)))]", 
+ "execution_time": "7.74894595146", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\nOpcode: SUB\nInput: [Id_5, Id_4]\nOutput: [Id_5 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_4]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [18446744073709551615L, Id_5 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_4]\nOutput: [Concat(0,\n       Extract(63, 0, Id_5) +\n       18446744073709551615*Extract(63, 0, Id_4))]\nOpcode: AND\nInput: [18446744073709551615L, Id_4]\nOutput: [Concat(0, Extract(63, 0, Id_4))]\nOpcode: AND\nInput: [18446744073709551615L, Id_3]\nOutput: [Concat(0, Extract(63, 0, Id_3))]"
+}

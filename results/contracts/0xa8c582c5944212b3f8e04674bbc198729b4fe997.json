@@ -1,0 +1,25 @@
+{
+ "execution_paths": "3", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "2.98029017448", 
+ "signedness": false, 
+ "evm_code_coverage": "97.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "MSTORE ", 
+  "PUSH1 0x20 ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP ", 
+  "DUP2 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

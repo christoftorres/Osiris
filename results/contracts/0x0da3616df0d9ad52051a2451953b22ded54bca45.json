@@ -1,0 +1,20 @@
+{
+ "execution_paths": "48", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "6.40483307838", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": "\nOpcode: AND\nInput: [Concat(0, Extract(255, 128, Id_39)), 18446744073709551615L]\nOutput: [Concat(0, Extract(191, 128, Id_39))]\nOpcode: AND\nInput: [Id_4, 340282366920938463463374607431768211455L]\nOutput: [Concat(0, Extract(127, 0, Id_4))]\nOpcode: AND\nInput: [Concat(0, Extract(255, 192, Id_39)), 72057594037927935]\nOutput: [Concat(0, Extract(247, 192, Id_39))]\nOpcode: AND\nInput: [Id_3, 340282366920938463463374607431768211455L]\nOutput: [Concat(0, Extract(127, 0, Id_3))]\nOpcode: AND\nInput: [Id_39, 340282366920938463463374607431768211455L]\nOutput: [Concat(0, Extract(127, 0, Id_39))]\nOpcode: AND\nInput: [Id_24, 340282366920938463463374607431768211455L]\nOutput: [Concat(0, Extract(127, 0, Id_24))]"
+}

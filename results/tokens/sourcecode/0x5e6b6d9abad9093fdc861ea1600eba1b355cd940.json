@@ -1,0 +1,20 @@
+{"TokenERC20":{
+ "execution_paths": "69", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "44.033107996", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x5e6b6d9abad9093fdc861ea1600eba1b355cd940.sol:TokenERC20:125:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x5e6b6d9abad9093fdc861ea1600eba1b355cd940.sol:TokenERC20:143:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

@@ -1,0 +1,58 @@
+{"Delta":{
+ "execution_paths": "49", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "55.6486060619", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x07e3c70653548b04f0a75970c1f81b4cbbfb606f.sol:Delta:44:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x07e3c70653548b04f0a75970c1f81b4cbbfb606f.sol:Delta:51:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"HumanStandardToken":{
+ "execution_paths": "49", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "52.0792090893", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x07e3c70653548b04f0a75970c1f81b4cbbfb606f.sol:HumanStandardToken:44:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x07e3c70653548b04f0a75970c1f81b4cbbfb606f.sol:HumanStandardToken:51:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "17", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.03719305992", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x07e3c70653548b04f0a75970c1f81b4cbbfb606f.sol:StandardToken:44:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x07e3c70653548b04f0a75970c1f81b4cbbfb606f.sol:StandardToken:51:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

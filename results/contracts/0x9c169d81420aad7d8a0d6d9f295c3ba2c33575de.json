@@ -1,0 +1,18 @@
+{
+ "execution_paths": "29", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "6.56931400299", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_4, 256L]\nOutput: [256*Id_4]\nOpcode: MUL\nInput: [Id_2, 65536L]\nOutput: [65536*Id_2]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [255, Id_4]\nOutput: [Concat(0, Extract(7, 0, Id_4))]"
+}

@@ -1,0 +1,27 @@
+{
+ "execution_paths": "36", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "20.3967840672", 
+ "signedness": false, 
+ "evm_code_coverage": "99.3", 
+ "underflow": "\nOpcode: SUB\nInput: [228 + Id_11 + 32*Concat(0, Extract(255, 5, 31 + Id_11)), 128 + 32*Concat(0, Extract(255, 5, 31 + Id_11))]\nOutput: [100 + Id_11]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "DUP2 ", 
+  "MSTORE ", 
+  "PUSH1 0x20 ", 
+  "JUMPDEST ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_9, Ia_store_83178918491680134410859922055313455442161009865110958921459301541995928439524]\nOutput: [Id_9 +\nIa_store_83178918491680134410859922055313455442161009865110958921459301541995928439524]\nOpcode: ADD\nInput: [Id_6, Ia_store_98317038723230023245902330522309470783970233319603188460307996934333720437062]\nOutput: [Id_6 +\nIa_store_98317038723230023245902330522309470783970233319603188460307996934333720437062]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

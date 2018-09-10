@@ -1,0 +1,18 @@
+{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.55658817291", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_4, 1000000*Id_3 + 1000*Id_2]\nOutput: [Id_4 + 1000000*Id_3 + 1000*Id_2]\nOpcode: MUL\nInput: [Id_3, 1000000]\nOutput: [1000000*Id_3]\nOpcode: MUL\nInput: [Id_2, 1000]\nOutput: [1000*Id_2]\nOpcode: ADD\nInput: [1000000*Id_3, 1000*Id_2]\nOutput: [1000000*Id_3 + 1000*Id_2]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

@@ -1,0 +1,28 @@
+{
+ "execution_paths": "58", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "35.9148740768", 
+ "signedness": false, 
+ "evm_code_coverage": "99.5", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "POP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [IH_s, Id_7]\nOutput: [IH_s + Id_7]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

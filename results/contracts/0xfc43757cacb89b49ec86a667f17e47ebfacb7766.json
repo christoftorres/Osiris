@@ -1,0 +1,20 @@
+{
+ "execution_paths": "41", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.738952875137", 
+ "signedness": "\nOpcode: SLT\nInput: [0, Id_4]\nOutput: [If(Id_4 <= 0, 0, 1)]", 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

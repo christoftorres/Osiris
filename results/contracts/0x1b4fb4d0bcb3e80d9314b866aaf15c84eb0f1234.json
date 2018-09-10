@@ -1,0 +1,25 @@
+{
+ "execution_paths": "101", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1061.21746397", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": "\nOpcode: SUB\nInput: [Ia_store_12, Id_27]\nOutput: [Ia_store_12 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_27]", 
+ "time_dependency": true, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP2 ", 
+  "MSTORE ", 
+  "PUSH1 0x20 ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_15, 65536]\nOutput: [65536*Id_15]\nOpcode: ADD\nInput: [Id_20, Ia_store_86170771458943795496563461767462636038440437114080869390833674000186242690755]\nOutput: [Id_20 +\nIa_store_86170771458943795496563461767462636038440437114080869390833674000186242690755]\nOpcode: ADD\nInput: [Id_18, Ia_store_12]\nOutput: [Id_18 + Ia_store_12]\nOpcode: MUL\nInput: [256, Id_14]\nOutput: [256*Id_14]\nOpcode: ADD\nInput: [Id_6, Ia_store_11621893609490625484269100446711061157259207658701861938698544553370176067331]\nOutput: [Id_6 +\nIa_store_11621893609490625484269100446711061157259207658701861938698544553370176067331]\nOpcode: ADD\nInput: [Id_18, Ia_store_72377772105128863418475571712775216868785980343719272933974020169085012916117]\nOutput: [Id_18 +\nIa_store_72377772105128863418475571712775216868785980343719272933974020169085012916117]", 
+ "money_concurrency": true, 
+ "truncation": "\nOpcode: AND\nInput: [255, Concat(0,\n       Extract(255, 8, 65536*Id_15) |\n       Concat(Extract(255, 24, 256*Id_14) |\n              Extract(255,\n                      24,\n                      Ia_store_86271088948155350414223856420218879628891532541455075025025187672906857701556),\n              0,\n              Extract(15, 8, 256*Extract(15, 0, Id_14))))]\nOutput: [Concat(0,\n       Extract(15, 8, 65536*Id_15) |\n       Extract(15, 8, 256*Extract(15, 0, Id_14)))]\nOpcode: AND\nInput: [255, 65536*Id_15 |\nConcat(Extract(255, 24, 256*Id_14) |\n       Extract(255,\n               24,\n               Ia_store_86271088948155350414223856420218879628891532541455075025025187672906857701556),\n       0,\n       Extract(15, 1, 256*Extract(15, 0, Id_14)),\n       1)]\nOutput: [Concat(0, Extract(7, 1, 256*Extract(15, 0, Id_14)), 1)]\nOpcode: AND\nInput: [255, Concat(0,\n       Extract(255, 24, 65536*Id_15) |\n       Extract(255, 24, 256*Id_14) |\n       Extract(255,\n               24,\n               Ia_store_86271088948155350414223856420218879628891532541455075025025187672906857701556))]\nOutput: [Concat(0,\n       Extract(31, 24, 65536*Id_15) |\n       Extract(31, 24, 256*Id_14) |\n       Extract(31,\n               24,\n               Ia_store_86271088948155350414223856420218879628891532541455075025025187672906857701556))]"
+}

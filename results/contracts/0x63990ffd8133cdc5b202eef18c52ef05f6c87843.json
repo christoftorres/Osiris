@@ -1,0 +1,18 @@
+{
+ "execution_paths": "51", 
+ "callstack": true, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "246.760874033", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\nOpcode: SUB\nInput: [548 + 64*Id_12 + 64*Id_10 + 64*Id_8 + 64*Id_6, 224 + 32*Id_12 + 32*Id_10 + 32*Id_8 + 32*Id_6]\nOutput: [324 + 32*Id_12 + 32*Id_10 + 32*Id_8 + 32*Id_6]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

@@ -1,0 +1,18 @@
+{
+ "execution_paths": "27", 
+ "callstack": true, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "17.9344658852", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_3, Id_3]\nOutput: [Ia_store_3 + Id_3]\nOpcode: ADD\nInput: [Ia_store_3 + Id_3, IH_blockhash]\nOutput: [Ia_store_3 + Id_3 + IH_blockhash]\nOpcode: ADD\nInput: [bvudiv_i(Ia_store_3 + Id_3 + IH_blockhash, Ia_store_8), 1]\nOutput: [1 + bvudiv_i(Ia_store_3 + Id_3 + IH_blockhash, Ia_store_8)]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

@@ -1,0 +1,75 @@
+{"ATL":{
+ "execution_paths": "43", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "22.1147148609", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05.sol:ATL:137:13\ntotalSupply + _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05.sol:ATL:140:5\ntotalSupply += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05.sol:ATL:139:5\nbalances[_holder] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"BasicToken":{
+ "execution_paths": "11", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.625212907791", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"SafeMath":{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.00728607177734", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "20", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.26699399948", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

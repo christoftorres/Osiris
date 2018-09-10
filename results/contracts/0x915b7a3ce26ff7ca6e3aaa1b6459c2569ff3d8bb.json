@@ -1,0 +1,20 @@
+{
+ "execution_paths": "41", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "2.30326509476", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_5, Ia_store_63636095334758743465379210036427368400626472225615622294647436324132549124879]\nOutput: [Id_5 +\nIa_store_63636095334758743465379210036427368400626472225615622294647436324132549124879]\nOpcode: ADD\nInput: [Id_16, Ia_store_45446202843147734032562710652269221175130697997269162460661029258154710899091]\nOutput: [Id_16 +\nIa_store_45446202843147734032562710652269221175130697997269162460661029258154710899091]\nOpcode: ADD\nInput: [Id_14, Ia_store_82089481189959116575351651779366554245283128510720556805654520561602531705387]\nOutput: [Id_14 +\nIa_store_82089481189959116575351651779366554245283128510720556805654520561602531705387]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [Id_7, 255]\nOutput: [Concat(0, Extract(7, 0, Id_7))]"
+}

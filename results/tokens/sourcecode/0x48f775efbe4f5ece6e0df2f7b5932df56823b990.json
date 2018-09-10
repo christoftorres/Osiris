@@ -1,0 +1,39 @@
+{"R_Token":{
+ "execution_paths": "52", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "55.230244875", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x48f775efbe4f5ece6e0df2f7b5932df56823b990.sol:R_Token:66:13\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x48f775efbe4f5ece6e0df2f7b5932df56823b990.sol:R_Token:76:13\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "18", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.0813498497", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x48f775efbe4f5ece6e0df2f7b5932df56823b990.sol:StandardToken:66:13\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x48f775efbe4f5ece6e0df2f7b5932df56823b990.sol:StandardToken:76:13\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

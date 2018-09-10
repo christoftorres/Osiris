@@ -1,0 +1,28 @@
+{
+ "execution_paths": "82", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "19.4772269726", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "POP ", 
+  "POP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "STOP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "POP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

@@ -1,0 +1,20 @@
+{"MyToken":{
+ "execution_paths": "67", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "42.0414319038", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x6ba460ab75cd2c56343b3517ffeba60748654d26.sol:MyToken:122:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x6ba460ab75cd2c56343b3517ffeba60748654d26.sol:MyToken:140:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

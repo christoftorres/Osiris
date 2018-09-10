@@ -1,0 +1,18 @@
+{
+ "execution_paths": "18", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.44958901405", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_4, Ia_store_7]\nOutput: [Id_4 + Ia_store_7]\nOpcode: ADD\nInput: [Id_4, Ia_store_6]\nOutput: [Id_4 + Ia_store_6]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

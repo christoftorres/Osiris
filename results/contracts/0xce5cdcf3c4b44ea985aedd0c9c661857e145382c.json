@@ -1,0 +1,24 @@
+{
+ "execution_paths": "102", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "4.81348109245", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "JUMP ", 
+  "JUMPDEST "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [1461501637330902918203684832716283019655932542976L, Concat(Extract(255, 64, Id_5), 0)]\nOutput: [1461501637330902918203684832716283019655932542976*\nConcat(Extract(255, 64, Id_5), 0)]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

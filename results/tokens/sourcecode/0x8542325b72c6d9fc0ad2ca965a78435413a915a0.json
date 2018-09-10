@@ -1,0 +1,20 @@
+{"OysterShell":{
+ "execution_paths": "151", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "50.9609239101", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x8542325b72c6d9fc0ad2ca965a78435413a915a0.sol:OysterShell:404:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x8542325b72c6d9fc0ad2ca965a78435413a915a0.sol:OysterShell:374:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x8542325b72c6d9fc0ad2ca965a78435413a915a0.sol:OysterShell:187:30\nblock.timestamp + _duration\n^\n/home/users/cferreira/Osiris/tokens_source/0x8542325b72c6d9fc0ad2ca965a78435413a915a0.sol:OysterShell:267:21\nbalances[_to] + _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

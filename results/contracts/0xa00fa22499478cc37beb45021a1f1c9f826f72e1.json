@@ -1,0 +1,28 @@
+{
+ "execution_paths": "96", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "50.6386828423", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "POP ", 
+  "PUSH1 0x14 ", 
+  "PUSH2 0x05c4 ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "PUSH1 0x0a ", 
+  "PUSH2 0x05c4 ", 
+  "JUMP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_13, 40]\nOutput: [40*Id_13]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

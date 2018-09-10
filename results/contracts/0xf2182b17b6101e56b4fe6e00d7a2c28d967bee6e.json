@@ -1,0 +1,20 @@
+{
+ "execution_paths": "39", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "124.291339159", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [bvudiv_i(Iv, Id_25), Ia_store_5306914417648526859619621757852114260595920324672679611098248505314331633821]\nOutput: [bvudiv_i(Iv, Id_25) +\nIa_store_5306914417648526859619621757852114260595920324672679611098248505314331633821]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

@@ -1,0 +1,22 @@
+{
+ "execution_paths": "219", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "85.5598409176", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "STOP ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_106, bvudiv_i(Id_106, 10)]\nOutput: [Id_106 + bvudiv_i(Id_106, 10)]\nOpcode: ADD\nInput: [Id_106, bvudiv_i(Id_106, 5)]\nOutput: [Id_106 + bvudiv_i(Id_106, 5)]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

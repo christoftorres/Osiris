@@ -1,0 +1,20 @@
+{
+ "execution_paths": "66", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_3 + Concat(0, Extract(255, 3, Id_8)), some_var_4]\nOutput: [bvudiv_i(Ia_store_3 + Concat(0, Extract(255, 3, Id_8)),\n         some_var_4)]", 
+ "execution_time": "1.432751894", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [4294967295, bvudiv_i(Ia_store_3 + Concat(0, Extract(255, 3, Id_8)),\n         some_var_4)]\nOutput: [Concat(0,\n       Extract(31,\n               0,\n               bvudiv_i(Ia_store_3 + Concat(0, Extract(255, 3, Id_8)),\n                        some_var_4)))]"
+}

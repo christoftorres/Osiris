@@ -1,0 +1,30 @@
+{
+ "execution_paths": "3", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nbvudiv_i(Id_2, 10), some_var_1]\nOutput: [bvudiv_i(Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nbvudiv_i(Id_2, 10),\n         some_var_1)]", 
+ "execution_time": "15.7192950249", 
+ "signedness": false, 
+ "evm_code_coverage": "93.5", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP2 ", 
+  "SSTORE ", 
+  "DUP4 ", 
+  "ADD ", 
+  "PUSH2 0x00b6 ", 
+  "JUMP ", 
+  "JUMP ", 
+  "SWAP1 ", 
+  "POP ", 
+  "JUMPDEST ", 
+  "DUP5 "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [6901746346790563787434755862277025452451108972170386555162524223799296L, bvudiv_i(Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nbvudiv_i(Id_2, 10),\n         some_var_1)]\nOutput: [6901746346790563787434755862277025452451108972170386555162524223799296*\nbvudiv_i(Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nbvudiv_i(Id_2, 10),\n         some_var_1)]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

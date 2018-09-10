@@ -1,0 +1,58 @@
+{"AEToken":{
+ "execution_paths": "109", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "88.3419630527", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d.sol:AEToken:68:5\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d.sol:AEToken:77:5\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"HumanStandardToken":{
+ "execution_paths": "53", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "52.7899558544", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d.sol:HumanStandardToken:68:5\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d.sol:HumanStandardToken:77:5\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "19", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.12342190742", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d.sol:StandardToken:68:5\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d.sol:StandardToken:77:5\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

@@ -1,0 +1,29 @@
+{
+ "execution_paths": "55", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "273.230806828", 
+ "signedness": false, 
+ "evm_code_coverage": "99.3", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP2 ", 
+  "MSTORE ", 
+  "PUSH1 0x20 ", 
+  "JUMPDEST ", 
+  "STOP ", 
+  "SWAP2 ", 
+  "POP ", 
+  "ADD ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [452312848583266388373324160190187140051835877600158453279131187530910662656L, Id_109]\nOutput: [452312848583266388373324160190187140051835877600158453279131187530910662656*\nId_109]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

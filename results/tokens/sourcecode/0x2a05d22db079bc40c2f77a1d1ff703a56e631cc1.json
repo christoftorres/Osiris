@@ -1,0 +1,58 @@
+{"BitAseanToken":{
+ "execution_paths": "72", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "46.5609521866", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x2a05d22db079bc40c2f77a1d1ff703a56e631cc1.sol:BitAseanToken:138:9\ntotalSupply += mintedAmount\n^\n/home/users/cferreira/Osiris/tokens_source/0x2a05d22db079bc40c2f77a1d1ff703a56e631cc1.sol:BitAseanToken:137:9\nbalanceOf[target] += mintedAmount\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"owned":{
+ "execution_paths": "4", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.122863054276", 
+ "signedness": false, 
+ "evm_code_coverage": "98.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"token":{
+ "execution_paths": "60", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "41.2134261131", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

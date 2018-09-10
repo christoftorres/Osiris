@@ -1,0 +1,24 @@
+{
+ "execution_paths": "3", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.149420976639", 
+ "signedness": false, 
+ "evm_code_coverage": "98.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH1 0x20 ", 
+  "PUSH1 0x40 ", 
+  "PUSH1 0x05 ", 
+  "RETURN ", 
+  "PUSH1 0x40 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

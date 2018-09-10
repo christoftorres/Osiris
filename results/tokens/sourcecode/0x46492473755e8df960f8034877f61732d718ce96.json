@@ -1,0 +1,39 @@
+{"StandardToken":{
+ "execution_paths": "107", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "54.8384549618", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x46492473755e8df960f8034877f61732d718ce96.sol:StandardToken:160:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x46492473755e8df960f8034877f61732d718ce96.sol:StandardToken:173:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"owned":{
+ "execution_paths": "7", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.182072162628", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

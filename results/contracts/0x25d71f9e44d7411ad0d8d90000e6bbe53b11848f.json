@@ -1,0 +1,20 @@
+{
+ "execution_paths": "100", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "74.6207740307", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Ia_store_6*Id_3, 100000000]\nOutput: [100000000*Ia_store_6*Id_3]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

@@ -1,0 +1,26 @@
+{
+ "execution_paths": "302", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "95.3486039639", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "POP ", 
+  "POP ", 
+  "JUMP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_8, 10000]\nOutput: [10000*Id_8]\nOpcode: ADD\nInput: [Ia_store_113108002538462514804454655291593909786941091459132855011205946650668303886430, Id_18]\nOutput: [Ia_store_113108002538462514804454655291593909786941091459132855011205946650668303886430 +\nId_18]\nOpcode: MUL\nInput: [Id_4, 11652]\nOutput: [11652*Id_4]\nOpcode: MUL\nInput: [Id_8, 10000]\nOutput: [10000*Id_8]\nOpcode: MUL\nInput: [Id_4, 12817]\nOutput: [12817*Id_4]\nOpcode: ADD\nInput: [Ia_store_13, Id_18]\nOutput: [Ia_store_13 + Id_18]\nOpcode: MUL\nInput: [Id_4, 12817]\nOutput: [12817*Id_4]\nOpcode: MUL\nInput: [Id_8, 10000]\nOutput: [10000*Id_8]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

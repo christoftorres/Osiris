@@ -1,0 +1,58 @@
+{"ERC20Token":{
+ "execution_paths": "73", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "44.2422010899", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037.sol:ERC20Token:132:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037.sol:ERC20Token:148:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"Owned":{
+ "execution_paths": "8", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.214464187622", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"Sentinel":{
+ "execution_paths": "95", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "44.1501309872", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037.sol:Sentinel:132:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037.sol:Sentinel:148:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

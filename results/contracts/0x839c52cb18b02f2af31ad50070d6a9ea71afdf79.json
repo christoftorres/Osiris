@@ -1,0 +1,32 @@
+{
+ "execution_paths": "126", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "53.8134810925", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "ASSERTFAIL ", 
+  "GASPRICE ", 
+  "EXP ", 
+  "CALLER ", 
+  "ORIGIN ", 
+  "STOP ", 
+  "STOP ", 
+  "STOP ", 
+  "STOP ", 
+  "NOT ", 
+  "GASLIMIT ", 
+  "PUSH21 0x68657265756d205369676e6564204d657373616765 ", 
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

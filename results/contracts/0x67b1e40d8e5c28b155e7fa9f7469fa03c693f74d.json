@@ -1,0 +1,32 @@
+{
+ "execution_paths": "29", 
+ "callstack": true, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "2.33128905296", 
+ "signedness": false, 
+ "evm_code_coverage": "99.0", 
+ "underflow": false, 
+ "time_dependency": true, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "SUB ", 
+  "INVALID 0xf7 ", 
+  "INVALID 0x49 ", 
+  "SSTORE ", 
+  "INVALID 0xe8 ", 
+  "SWAP8 ", 
+  "DUP16 ", 
+  "BYTE ", 
+  "PUSH10 0x71ea6730542e37b66179 ", 
+  "INVALID 0xbc ", 
+  "STOP ", 
+  "INVALID 0xa6 ", 
+  "PUSH10 0x7e974e6a320f454390be "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

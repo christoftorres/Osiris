@@ -1,0 +1,20 @@
+{"FuckToken":{
+ "execution_paths": "75", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "53.4756610394", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x65be44c747988fbf606207698c944df4442efe19.sol:FuckToken:72:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x65be44c747988fbf606207698c944df4442efe19.sol:FuckToken:82:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

@@ -1,0 +1,18 @@
+{
+ "execution_paths": "31", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nConcat(0, Extract(255, 5, Id_2)), some_var_125]\nOutput: [bvudiv_i(Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nConcat(0, Extract(255, 5, Id_2)),\n         some_var_125)]", 
+ "execution_time": "4.24819111824", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [255, bvudiv_i(Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nConcat(0, Extract(255, 5, Id_2)),\n         some_var_125)]\nOutput: [Concat(0,\n       Extract(7,\n               0,\n               bvudiv_i(Ia_store_18569430475105882587588266137607568536673111973893317399460219858819262702947 +\nConcat(0, Extract(255, 5, Id_2)),\n                        some_var_125)))]"
+}

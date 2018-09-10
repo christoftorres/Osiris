@@ -1,0 +1,21 @@
+{
+ "execution_paths": "30", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "296.713132858", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": "\nOpcode: SUB\nInput: [Ia_store_4, Id_11]\nOutput: [Ia_store_4 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_11]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "INVALID 0x2d ", 
+  "PUSH19 0xaf3c1b2b2956e6f694fb741556d5ca95243739 "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_7, 256]\nOutput: [256*Id_7]\nOpcode: MUL\nInput: [Id_4, Concat(0, Extract(167, 160, Ia_store_0))]\nOutput: [Id_4*Concat(0, Extract(167, 160, Ia_store_0))]\nOpcode: MUL\nInput: [Id_9, Ia_store_2]\nOutput: [Ia_store_2*Id_9]\nOpcode: ADD\nInput: [Id_4, bvudiv_i(Id_4*Concat(0, Extract(167, 160, Ia_store_0)),\n         Concat(0, Extract(175, 168, Ia_store_0)))]\nOutput: [Id_4 +\nbvudiv_i(Id_4*Concat(0, Extract(167, 160, Ia_store_0)),\n         Concat(0, Extract(175, 168, Ia_store_0)))]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

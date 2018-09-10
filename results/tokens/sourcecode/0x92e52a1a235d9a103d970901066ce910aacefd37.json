@@ -1,0 +1,20 @@
+{"UCASH":{
+ "execution_paths": "26", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "19.3459479809", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x92e52a1a235d9a103d970901066ce910aacefd37.sol:UCASH:81:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x92e52a1a235d9a103d970901066ce910aacefd37.sol:UCASH:89:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

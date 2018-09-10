@@ -1,0 +1,20 @@
+{"FRV":{
+ "execution_paths": "69", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "44.8535699844", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x48df4e0296f908ceab0428a5182d19b31fc037d6.sol:FRV:127:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x48df4e0296f908ceab0428a5182d19b31fc037d6.sol:FRV:145:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

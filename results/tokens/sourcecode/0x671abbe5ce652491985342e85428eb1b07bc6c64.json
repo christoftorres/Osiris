@@ -1,0 +1,20 @@
+{"QuantumToken":{
+ "execution_paths": "79", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "52.5151278973", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x671abbe5ce652491985342e85428eb1b07bc6c64.sol:QuantumToken:80:9\n_totalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x671abbe5ce652491985342e85428eb1b07bc6c64.sol:QuantumToken:89:9\n_totalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

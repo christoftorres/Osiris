@@ -1,0 +1,18 @@
+{
+ "execution_paths": "41", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "8.47569584846", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": "\nOpcode: AND\nInput: [1, Concat(0, Extract(247, 240, Id_9), 0) >> 240]\nOutput: [Concat(0,\n       Extract(0,\n               0,\n               Concat(0, Extract(247, 240, Id_9), 0) >> 240))]\nOpcode: AND\nInput: [1, Concat(0, Extract(247, 240, Id_10), 0) >> 240]\nOutput: [Concat(0,\n       Extract(0,\n               0,\n               Concat(0, Extract(247, 240, Id_10), 0) >> 240))]"
+}

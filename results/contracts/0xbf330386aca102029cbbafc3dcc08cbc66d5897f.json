@@ -1,0 +1,18 @@
+{
+ "execution_paths": "30", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1537.85069394", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_9, 79228162514264337593543950336L]\nOutput: [79228162514264337593543950336*Id_9]\nOpcode: MUL\nInput: [79228162514264337593543950336L, Id_14]\nOutput: [79228162514264337593543950336*Id_14]\nOpcode: MUL\nInput: [79228162514264337593543950336L, Id_15]\nOutput: [79228162514264337593543950336*Id_15]\nOpcode: MUL\nInput: [79228162514264337593543950336L, Id_20]\nOutput: [79228162514264337593543950336*Id_20]\nOpcode: MUL\nInput: [79228162514264337593543950336L, Id_14]\nOutput: [79228162514264337593543950336*Id_14]\nOpcode: MUL\nInput: [79228162514264337593543950336L, Id_20]\nOutput: [79228162514264337593543950336*Id_20]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

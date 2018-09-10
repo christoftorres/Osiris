@@ -1,0 +1,20 @@
+{"Tracto":{
+ "execution_paths": "61", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "60.0668151379", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x30cecb5461a449a90081f5a5f55db4e048397bab.sol:Tracto:148:9\nallowed[msg.sender][_spender] += _addedValue\n^", 
+ "money_concurrency": "\nFlow 1:\n/home/users/cferreira/Osiris/tokens_source/0x30cecb5461a449a90081f5a5f55db4e048397bab.sol:Tracto:65:13\nowner.transfer(this.balance)\n^\nFlow 2:\n/home/users/cferreira/Osiris/tokens_source/0x30cecb5461a449a90081f5a5f55db4e048397bab.sol:Tracto:65:13\nowner.transfer(this.balance)\n^", 
+ "truncation": false
+}}

@@ -1,0 +1,39 @@
+{"NexxusToken":{
+ "execution_paths": "57", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "44.7739021778", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x7627de4b93263a6a7570b8dafa64bae812e5c394.sol:NexxusToken:26:13\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x7627de4b93263a6a7570b8dafa64bae812e5c394.sol:NexxusToken:70:7\ntotalSupply += _amount\n^\n/home/users/cferreira/Osiris/tokens_source/0x7627de4b93263a6a7570b8dafa64bae812e5c394.sol:NexxusToken:71:13\nbalances[owner] += _amount\n^\n/home/users/cferreira/Osiris/tokens_source/0x7627de4b93263a6a7570b8dafa64bae812e5c394.sol:NexxusToken:19:13\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "28", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.88358783722", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x7627de4b93263a6a7570b8dafa64bae812e5c394.sol:StandardToken:26:13\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x7627de4b93263a6a7570b8dafa64bae812e5c394.sol:StandardToken:19:13\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

@@ -1,0 +1,20 @@
+{"Nexium":{
+ "execution_paths": "67", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "53.1192629337", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x45e42d659d9f9466cd5df622506033145a9b89bc.sol:Nexium:42:4\nbalanceOf[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x45e42d659d9f9466cd5df622506033145a9b89bc.sol:Nexium:80:4\nbalanceOf[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

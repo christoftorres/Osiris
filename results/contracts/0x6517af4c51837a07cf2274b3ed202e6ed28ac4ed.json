@@ -1,0 +1,31 @@
+{
+ "execution_paths": "157", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "891.835560083", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "JUMP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "PUSH1 0x08 ", 
+  "ADD ", 
+  "PUSH2 0x12b8 ", 
+  "JUMP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_5, 86400]\nOutput: [86400*Id_5]\nOpcode: MUL\nInput: [8, Id_6]\nOutput: [8*Id_6]\nOpcode: ADD\nInput: [6, 19224855404247632006917173431419498680506051063941070371722880450128577361118 +\n8*Id_6]\nOutput: [19224855404247632006917173431419498680506051063941070371722880450128577361124 +\n8*Id_6]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

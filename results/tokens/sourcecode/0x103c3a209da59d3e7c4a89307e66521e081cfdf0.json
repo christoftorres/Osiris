@@ -1,0 +1,75 @@
+{"BasicToken":{
+ "execution_paths": "10", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.617792844772", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"GVToken":{
+ "execution_paths": "103", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "7.73723101616", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x103c3a209da59d3e7c4a89307e66521e081cfdf0.sol:GVToken:227:9\ntotalSupply -= value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x103c3a209da59d3e7c4a89307e66521e081cfdf0.sol:GVToken:188:17\ntotalSupply + value\n^\n/home/users/cferreira/Osiris/tokens_source/0x103c3a209da59d3e7c4a89307e66521e081cfdf0.sol:GVToken:228:9\ntotalMigrated += value\n^\n/home/users/cferreira/Osiris/tokens_source/0x103c3a209da59d3e7c4a89307e66521e081cfdf0.sol:GVToken:191:9\ntotalSupply += value\n^\n/home/users/cferreira/Osiris/tokens_source/0x103c3a209da59d3e7c4a89307e66521e081cfdf0.sol:GVToken:190:9\nbalances[holder] += value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"SafeMath":{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.00886583328247", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "22", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.10308790207", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

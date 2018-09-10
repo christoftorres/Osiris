@@ -1,0 +1,49 @@
+{"ContractReceiver":{
+ "execution_paths": "4", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.53977394104", 
+ "signedness": false, 
+ "evm_code_coverage": "99.2", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"MobileGoToken":{
+ "execution_paths": "178", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "50.3859820366", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x40395044ac3c0c57051906da938b54bd6557f212.sol:MobileGoToken:195:13\n_currentSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "SWAP1 ", 
+  "POP ", 
+  "PUSH2 0x1096 ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "SWAP1 ", 
+  "POP ", 
+  "PUSH2 0x1096 ", 
+  "JUMP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

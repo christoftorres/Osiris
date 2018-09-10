@@ -1,0 +1,18 @@
+{
+ "execution_paths": "55", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "611.737356186", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_9, Ia_store_8]\nOutput: [Id_9 + Ia_store_8]\nOpcode: MUL\nInput: [Id_8, 4294967296]\nOutput: [4294967296*Id_8]\nOpcode: MUL\nInput: [Id_5, 1099511627776]\nOutput: [1099511627776*Id_5]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

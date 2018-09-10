@@ -1,0 +1,20 @@
+{
+ "execution_paths": "262", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1094.07525396", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_18, 2]\nOutput: [2 + Id_18]\nOpcode: ADD\nInput: [Id_45, 1]\nOutput: [1 + Id_45]\nOpcode: ADD\nInput: [Id_53, 2]\nOutput: [2 + Id_53]\nOpcode: ADD\nInput: [Id_59, 1]\nOutput: [1 + Id_59]\nOpcode: ADD\nInput: [Ia_store_4, Id_19]\nOutput: [Ia_store_4 + Id_19]", 
+ "money_concurrency": true, 
+ "truncation": "\nOpcode: AND\nInput: [Ia_store_5 + Id_30, 255]\nOutput: [Concat(0, Extract(7, 0, Ia_store_5) + Extract(7, 0, Id_30))]"
+}

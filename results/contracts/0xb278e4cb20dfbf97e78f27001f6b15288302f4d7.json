@@ -1,0 +1,18 @@
+{
+ "execution_paths": "17", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "19.1344330311", 
+ "signedness": "\nOpcode: SDIV\nInput: [32 + 32*Concat(0, Extract(255, 5, 31 + mem_[800])), 10]\nOutput: [bvsdiv_i(If(0 <=\n            32 +\n            32*Concat(0, Extract(255, 5, 31 + mem_[800])),\n            32 +\n            32*Concat(0, Extract(255, 5, 31 + mem_[800])),\n            115792089237316195423570985008687907853269984665640564039457584007913129639904 +\n            115792089237316195423570985008687907853269984665640564039457584007913129639904*\n            Concat(0, Extract(255, 5, 31 + mem_[800]))),\n         10)]", 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\nOpcode: SUB\nInput: [IH_i, IH_i +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_3]\nOutput: [Id_3]\nOpcode: SUB\nInput: [IH_i, IH_i +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_12]\nOutput: [Id_12]\nOpcode: SUB\nInput: [IH_i, Id_12]\nOutput: [IH_i +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_12]\nOpcode: SUB\nInput: [IH_i, Id_3]\nOutput: [IH_i +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_3]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

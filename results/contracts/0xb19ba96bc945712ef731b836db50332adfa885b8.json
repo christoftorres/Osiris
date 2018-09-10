@@ -1,0 +1,18 @@
+{
+ "execution_paths": "15", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "65.3573560715", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Concat(0,\n       Extract(159,\n               32,\n               1 + Concat(0, Extract(31, 0, Ia_store_2))) |\n       Extract(159, 32, Ia_store_2)), Id_4]\nOutput: [Concat(0,\n       Extract(159,\n               32,\n               1 + Concat(0, Extract(31, 0, Ia_store_2))) |\n       Extract(159, 32, Ia_store_2)) +\nId_4]\nOpcode: MUL\nInput: [Concat(0,\n       Extract(159,\n               32,\n               1 + Concat(0, Extract(31, 0, Ia_store_2))) |\n       Extract(159, 32, Ia_store_2)) +\nId_4, 4294967296L]\nOutput: [4294967296*\nConcat(0,\n       Extract(159,\n               32,\n               1 + Concat(0, Extract(31, 0, Ia_store_2))) |\n       Extract(159, 32, Ia_store_2)) +\n4294967296*Id_4]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

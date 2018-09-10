@@ -1,0 +1,22 @@
+{
+ "execution_paths": "53", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "125.962592125", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_15, 2100000000000000]\nOutput: [2100000000000000*Id_15]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

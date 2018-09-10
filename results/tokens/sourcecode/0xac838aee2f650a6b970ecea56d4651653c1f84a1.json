@@ -1,0 +1,20 @@
+{"ClearCoin":{
+ "execution_paths": "65", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "2.8078379631", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0xac838aee2f650a6b970ecea56d4651653c1f84a1.sol:ClearCoin:43:3\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xac838aee2f650a6b970ecea56d4651653c1f84a1.sol:ClearCoin:55:3\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

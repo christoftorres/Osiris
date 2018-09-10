@@ -1,0 +1,30 @@
+{
+ "execution_paths": "97", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "4.51787590981", 
+ "signedness": false, 
+ "evm_code_coverage": "99.5", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP15 ", 
+  "INVALID 0xd1 ", 
+  "INVALID 0xd ", 
+  "INVALID 0xf ", 
+  "LOG1 ", 
+  "STOP ", 
+  "SWAP14 ", 
+  "INVALID 0xcd ", 
+  "PUSH15 0x97f79bf10a43817beb6888e086a716 ", 
+  "INVALID 0xe0 ", 
+  "PUSH7 0xa1d37971aaac82 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

@@ -1,0 +1,32 @@
+{
+ "execution_paths": "59", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "19.5254769325", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "INVALID 0x4a ", 
+  "ASSERTFAIL ", 
+  "GAS ", 
+  "INVALID 0x29 ", 
+  "INVALID 0xbc ", 
+  "INVALID 0x1d ", 
+  "INVALID 0xc7 ", 
+  "SDIV ", 
+  "INVALID 0xbf ", 
+  "INVALID 0xd9 ", 
+  "BYTE ", 
+  "BYTE ", 
+  "DUP4 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

@@ -1,0 +1,20 @@
+{
+ "execution_paths": "37", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "30.1734089851", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_3 + Id_5, bvudiv_i(Id_5, 20)]\nOutput: [Ia_store_3 + Id_5 + bvudiv_i(Id_5, 20)]\nOpcode: ADD\nInput: [Ia_store_72628820713633670678417742968299420924900883184666078846336825866673965079165, Id_5]\nOutput: [Ia_store_72628820713633670678417742968299420924900883184666078846336825866673965079165 +\nId_5]\nOpcode: ADD\nInput: [Ia_store_3, Id_5]\nOutput: [Ia_store_3 + Id_5]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

@@ -1,0 +1,20 @@
+{
+ "execution_paths": "139", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "135.130293846", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_6, bvudiv_i(Ia_store_18430201342082903019121909287843950743482697711261048540066904256982246658273*\n         (1505775327 +\n          115792089237316195423570985008687907853269984665640564039457584007913129639935*\n          IH_s),\n         86400)]\nOutput: [Id_6 +\nbvudiv_i(Ia_store_18430201342082903019121909287843950743482697711261048540066904256982246658273*\n         (1505775327 +\n          115792089237316195423570985008687907853269984665640564039457584007913129639935*\n          IH_s),\n         86400)]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

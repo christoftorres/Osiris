@@ -1,0 +1,20 @@
+{"IconomiToken":{
+ "execution_paths": "86", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "60.14980793", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x888666ca69e0f178ded6d75b5726cee99a87d698.sol:IconomiToken:66:7\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x888666ca69e0f178ded6d75b5726cee99a87d698.sol:IconomiToken:76:7\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

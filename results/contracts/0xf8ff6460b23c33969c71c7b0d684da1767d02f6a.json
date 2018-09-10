@@ -1,0 +1,20 @@
+{
+ "execution_paths": "150", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "282.595832825", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_51955566744903100597926112748567604143007762448958711678805925544683253944102, Id_10]\nOutput: [Ia_store_51955566744903100597926112748567604143007762448958711678805925544683253944102 +\nId_10]\nOpcode: ADD\nInput: [Ia_store_9, bvudiv_i(Ia_store_10*Id_13, 1000000000000000000)]\nOutput: [Ia_store_9 +\nbvudiv_i(Ia_store_10*Id_13, 1000000000000000000)]\nOpcode: MUL\nInput: [285714285714285L, Id_22]\nOutput: [285714285714285*Id_22]\nOpcode: ADD\nInput: [Ia_store_8, Id_13]\nOutput: [Ia_store_8 + Id_13]\nOpcode: ADD\nInput: [Ia_store_9, Id_10]\nOutput: [Ia_store_9 + Id_10]\nOpcode: ADD\nInput: [Ia_store_40300558140772235424499568713392232160660614005894776449833654690569516689727, bvudiv_i(Ia_store_10*Id_13, 1000000000000000000)]\nOutput: [Ia_store_40300558140772235424499568713392232160660614005894776449833654690569516689727 +\nbvudiv_i(Ia_store_10*Id_13, 1000000000000000000)]\nOpcode: ADD\nInput: [Ia_store_7, bvudiv_i(Ia_store_10*balance_16, 1000000000000000000)]\nOutput: [Ia_store_7 +\nbvudiv_i(Ia_store_10*balance_16, 1000000000000000000)]\nOpcode: ADD\nInput: [Ia_store_3822864059296309632322454929903761529431824433140935675808994479425322638882, Id_13]\nOutput: [Ia_store_3822864059296309632322454929903761529431824433140935675808994479425322638882 +\nId_13]\nOpcode: MUL\nInput: [balance_16, Ia_store_10]\nOutput: [Ia_store_10*balance_16]\nOpcode: MUL\nInput: [Id_13, Ia_store_10]\nOutput: [Ia_store_10*Id_13]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

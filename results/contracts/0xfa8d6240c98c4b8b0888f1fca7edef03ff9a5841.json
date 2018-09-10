@@ -1,0 +1,18 @@
+{
+ "execution_paths": "26", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Id_5, Concat(0, Extract(255, 1, 1 + Id_5))]\nOutput: [bvudiv_i(Id_5, Concat(0, Extract(255, 1, 1 + Id_5)))]", 
+ "execution_time": "154.931801081", 
+ "signedness": "\nOpcode: SLT\nInput: [Id_4, 1]\nOutput: [If(1 <= Id_4, 0, 1)]", 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_5, 1]\nOutput: [1 + Id_5]\nOpcode: ADD\nInput: [mem_[128], mem_[128]]\nOutput: [2*mem_[128]]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

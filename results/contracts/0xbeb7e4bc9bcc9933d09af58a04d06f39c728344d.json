@@ -1,0 +1,18 @@
+{
+ "execution_paths": "92", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "85.3064301014", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_5, bvudiv_i(10000000*\n         Ia_store_6078166435020580227147645631520330791984414391288923914513072834667407052527,\n         Ia_store_4)]\nOutput: [Id_5*\nbvudiv_i(10000000*\n         Ia_store_6078166435020580227147645631520330791984414391288923914513072834667407052527,\n         Ia_store_4)]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

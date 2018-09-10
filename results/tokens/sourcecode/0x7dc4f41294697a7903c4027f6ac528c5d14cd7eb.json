@@ -1,0 +1,45 @@
+{"Owner":{
+ "execution_paths": "7", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.380853891373", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"RemiCoin":{
+ "execution_paths": "59", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "32.4176440239", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x7dc4f41294697a7903c4027f6ac528c5d14cd7eb.sol:RemiCoin:111:9\nallowed[from][msg.sender] -= value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "POP ", 
+  "POP ", 
+  "JUMP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x7dc4f41294697a7903c4027f6ac528c5d14cd7eb.sol:RemiCoin:134:9\nbalances[target] += mintedAmount\n^\n/home/users/cferreira/Osiris/tokens_source/0x7dc4f41294697a7903c4027f6ac528c5d14cd7eb.sol:RemiCoin:135:9\ntotalSupply += mintedAmount\n^", 
+ "money_concurrency": false, 
+ "truncation": "\n/home/users/cferreira/Osiris/tokens_source/0x7dc4f41294697a7903c4027f6ac528c5d14cd7eb.sol:RemiCoin:158:5\nfunction changeDecimals(uint8 _decimals) onlyOwner {\r\n^"
+}}

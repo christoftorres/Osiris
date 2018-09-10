@@ -1,0 +1,20 @@
+{
+ "execution_paths": "50", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "3.44296002388", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Concat(0,\n       Extract(31,\n               0,\n               Ia_store_108263640650480392053632460705637262682473426073998624277837932942116258032814)), Concat(0, Extract(31, 0, Id_4))]\nOutput: [Concat(0,\n       Extract(31,\n               0,\n               Ia_store_108263640650480392053632460705637262682473426073998624277837932942116258032814)) +\nConcat(0, Extract(31, 0, Id_4))]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [4294967295, Concat(0,\n       Extract(31,\n               0,\n               Ia_store_108263640650480392053632460705637262682473426073998624277837932942116258032814)) +\nConcat(0, Extract(31, 0, Id_4))]\nOutput: [Concat(0,\n       Extract(31,\n               0,\n               Ia_store_108263640650480392053632460705637262682473426073998624277837932942116258032814) +\n       Extract(31, 0, Id_4))]"
+}

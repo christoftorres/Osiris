@@ -1,0 +1,27 @@
+{
+ "execution_paths": "77", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "114.361786127", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "JUMP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": "\nOpcode: AND\nInput: [Id_35, 4294967295]\nOutput: [Concat(0, Extract(31, 0, Id_35))]\nOpcode: AND\nInput: [Id_14, 4294967295]\nOutput: [Concat(0, Extract(31, 0, Id_14))]"
+}

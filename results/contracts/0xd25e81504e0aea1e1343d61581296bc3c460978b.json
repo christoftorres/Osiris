@@ -1,0 +1,31 @@
+{
+ "execution_paths": "30", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "2.05134010315", 
+ "signedness": false, 
+ "evm_code_coverage": "97.6", 
+ "underflow": "\nOpcode: SUB\nInput: [Ia_store_Is, Id_47]\nOutput: [Ia_store_Is +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_47]\nOpcode: SUB\nInput: [Ia_store_30002724035309050427987799485771756001112673050162527305548308066840345776143 +\nId_20, Id_27]\nOutput: [Ia_store_30002724035309050427987799485771756001112673050162527305548308066840345776143 +\nId_20 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_27]\nOpcode: SUB\nInput: [Ia_store_Id_19, Id_22]\nOutput: [Ia_store_Id_19 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nId_22]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH6 0x20696e204c4c ", 
+  "INVALID 0x4c ", 
+  "INVALID 0x4c ", 
+  "INVALID 0x4c ", 
+  "INVALID 0x4c ", 
+  "INVALID 0x4c ", 
+  "INVALID 0x4c ", 
+  "INVALID 0x4c ", 
+  "SHA3 ", 
+  "NUMBER ", 
+  "PUSH16 0x696e202d206c6f766520746f20636f64 ", 
+  "INVALID 0x2e "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_Id_49, Id_48]\nOutput: [Ia_store_Id_49 + Id_48]\nOpcode: ADD\nInput: [Ia_store_Id_25, Id_24]\nOutput: [Ia_store_Id_25 + Id_24]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

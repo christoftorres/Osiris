@@ -1,0 +1,27 @@
+{
+ "execution_paths": "45", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "6.90275096893", 
+ "signedness": false, 
+ "evm_code_coverage": "97.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "SWAP2 ", 
+  "POP ", 
+  "STOP ", 
+  "ADD ", 
+  "PUSH2 0x01cb ", 
+  "JUMP ", 
+  "PUSH1 0x01 "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [452312848583266388373324160190187140051835877600158453279131187530910662656L, Concat(Extract(255, 248, Id_3), 0) >> 248]\nOutput: [452312848583266388373324160190187140051835877600158453279131187530910662656*\n(Concat(Extract(255, 248, Id_3), 0) >> 248)]\nOpcode: MUL\nInput: [452312848583266388373324160190187140051835877600158453279131187530910662656L, Concat(Extract(255, 248, Id_2), 0) >> 248]\nOutput: [452312848583266388373324160190187140051835877600158453279131187530910662656*\n(Concat(Extract(255, 248, Id_2), 0) >> 248)]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

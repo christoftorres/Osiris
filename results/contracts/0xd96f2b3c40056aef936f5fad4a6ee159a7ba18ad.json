@@ -1,0 +1,20 @@
+{
+ "execution_paths": "4", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.160636901855", 
+ "signedness": false, 
+ "evm_code_coverage": "98.3", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [7, Id_2]\nOutput: [7*Id_2]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

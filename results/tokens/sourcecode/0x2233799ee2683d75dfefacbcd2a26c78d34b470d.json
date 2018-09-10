@@ -1,0 +1,20 @@
+{"Token":{
+ "execution_paths": "49", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "101.307014942", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x2233799ee2683d75dfefacbcd2a26c78d34b470d.sol:Token:28:28\ntokenSupply * 1000000000000000000\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

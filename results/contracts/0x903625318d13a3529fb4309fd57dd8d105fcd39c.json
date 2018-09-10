@@ -1,0 +1,30 @@
+{
+ "execution_paths": "75", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "23.0214278698", 
+ "signedness": false, 
+ "evm_code_coverage": "99.1", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "PUSH2 0x0701 ", 
+  "PUSH2 0x075e "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_29, Id_29]\nOutput: [2*Id_29]\nOpcode: ADD\nInput: [2*Id_29, Id_29]\nOutput: [3*Id_29]\nOpcode: ADD\nInput: [Id_15, Id_15]\nOutput: [2*Id_15]\nOpcode: ADD\nInput: [2*Id_15, Id_15]\nOutput: [3*Id_15]\nOpcode: ADD\nInput: [3*Id_15, Id_15]\nOutput: [4*Id_15]\nOpcode: ADD\nInput: [Id_33, Id_33]\nOutput: [2*Id_33]\nOpcode: ADD\nInput: [Id_5, Id_5]\nOutput: [2*Id_5]\nOpcode: ADD\nInput: [2*Id_5, Id_5]\nOutput: [3*Id_5]\nOpcode: ADD\nInput: [3*Id_5, Id_5]\nOutput: [4*Id_5]\nOpcode: ADD\nInput: [4*Id_5, Id_5]\nOutput: [5*Id_5]\nOpcode: ADD\nInput: [Id_20, Id_20]\nOutput: [2*Id_20]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

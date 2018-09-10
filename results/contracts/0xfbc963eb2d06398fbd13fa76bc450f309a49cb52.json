@@ -1,0 +1,27 @@
+{
+ "execution_paths": "28", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "14.4805350304", 
+ "signedness": false, 
+ "evm_code_coverage": "99.5", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH2 0x0ccd ", 
+  "JUMP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "PUSH2 0x05dd ", 
+  "JUMP ", 
+  "PUSH2 0x052b "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_13, 1000000000000000]\nOutput: [1000000000000000*Id_13]\nOpcode: ADD\nInput: [Ia_store_23371179338525509982957175092988955649838948917337596357964656721902313279510, Id_12]\nOutput: [Ia_store_23371179338525509982957175092988955649838948917337596357964656721902313279510 +\nId_12]\nOpcode: ADD\nInput: [Ia_store_12176995213114421429674628856365383759033567742920590427077333090509868361855, Id_4]\nOutput: [Ia_store_12176995213114421429674628856365383759033567742920590427077333090509868361855 +\nId_4]\nOpcode: MUL\nInput: [452312848583266388373324160190187140051835877600158453279131187530910662656L, Id_9]\nOutput: [452312848583266388373324160190187140051835877600158453279131187530910662656*\nId_9]\nOpcode: MUL\nInput: [Id_10, 1000000000000000]\nOutput: [1000000000000000*Id_10]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

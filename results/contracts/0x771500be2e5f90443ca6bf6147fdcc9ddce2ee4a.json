@@ -1,0 +1,31 @@
+{
+ "execution_paths": "75", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "695.614557028", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH1 0x20 ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP ", 
+  "DUP2 ", 
+  "MSTORE ", 
+  "PUSH1 0x20 ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP ", 
+  "DUP2 ", 
+  "MSTORE "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [11, Id_16]\nOutput: [11*Id_16]\nOpcode: MUL\nInput: [Id_22, 86400]\nOutput: [86400*Id_22]\nOpcode: ADD\nInput: [10, 1937035142596246788172577232054709726386880441279550832067530347910661804397 +\n11*Id_16]\nOutput: [1937035142596246788172577232054709726386880441279550832067530347910661804407 +\n11*Id_16]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

@@ -1,0 +1,33 @@
+{
+ "execution_paths": "180", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "42.3495678902", 
+ "signedness": false, 
+ "evm_code_coverage": "99.2", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "POP ", 
+  "STOP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "DUP5 ", 
+  "DUP1 ", 
+  "PUSH1 0x01 ", 
+  "JUMPDEST ", 
+  "ADD ", 
+  "SWAP6 ", 
+  "POP ", 
+  "POP ", 
+  "PUSH2 0x068b ", 
+  "JUMP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

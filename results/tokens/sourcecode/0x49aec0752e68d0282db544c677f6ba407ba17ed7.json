@@ -1,0 +1,20 @@
+{"XBLToken":{
+ "execution_paths": "83", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "5.74039697647", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x49aec0752e68d0282db544c677f6ba407ba17ed7.sol:XBLToken:142:9\n_totalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x49aec0752e68d0282db544c677f6ba407ba17ed7.sol:XBLToken:129:9\n_totalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x49aec0752e68d0282db544c677f6ba407ba17ed7.sol:XBLToken:130:9\n_totalBurned += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x49aec0752e68d0282db544c677f6ba407ba17ed7.sol:XBLToken:143:9\n_totalBurned += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

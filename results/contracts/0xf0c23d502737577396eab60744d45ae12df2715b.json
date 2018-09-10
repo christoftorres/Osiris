@@ -1,0 +1,25 @@
+{
+ "execution_paths": "36", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "21.5851528645", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP2 ", 
+  "MSTORE ", 
+  "PUSH1 0x20 ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_9, Ia_store_6]\nOutput: [Id_9 + Ia_store_6]\nOpcode: ADD\nInput: [Id_9, Ia_store_61768684663326839637911259812377765898444177339701552795391962883472767468785]\nOutput: [Id_9 +\nIa_store_61768684663326839637911259812377765898444177339701552795391962883472767468785]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

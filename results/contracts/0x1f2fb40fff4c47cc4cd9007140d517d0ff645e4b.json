@@ -1,0 +1,28 @@
+{
+ "execution_paths": "211", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "197.304147005", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "PUSH1 0x01 ", 
+  "ADD ", 
+  "PUSH2 0x0c7e ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "SWAP1 ", 
+  "POP ", 
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

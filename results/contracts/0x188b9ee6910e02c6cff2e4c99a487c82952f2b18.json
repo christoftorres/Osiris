@@ -1,0 +1,20 @@
+{
+ "execution_paths": "5", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "10.4779999256", 
+ "signedness": false, 
+ "evm_code_coverage": "99.2", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_2, some_var_1]\nOutput: [Id_2*some_var_1]\nOpcode: ADD\nInput: [bvudiv_i(Id_2*some_var_1, Id_3), 5]\nOutput: [5 + bvudiv_i(Id_2*some_var_1, Id_3)]\nOpcode: ADD\nInput: [Id_4, 1]\nOutput: [1 + Id_4]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

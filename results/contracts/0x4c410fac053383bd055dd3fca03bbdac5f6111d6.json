@@ -1,0 +1,20 @@
+{
+ "execution_paths": "32", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "6.76766896248", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [340282366920938463463374607431768211455L, Concat(Extract(255, 128, Ia_store_1),\n       0,\n       Extract(126, 0, Id_9))]\nOutput: [Concat(0, Extract(126, 0, Id_9))]\nOpcode: AND\nInput: [340282366920938463463374607431768211455L, Concat(Extract(255, 128, Ia_store_0),\n       0,\n       Extract(126, 0, Id_7))]\nOutput: [Concat(0, Extract(126, 0, Id_7))]"
+}

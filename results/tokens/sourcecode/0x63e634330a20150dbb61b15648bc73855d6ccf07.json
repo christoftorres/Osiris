@@ -1,0 +1,20 @@
+{"BlocklancerToken":{
+ "execution_paths": "156", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "56.1665170193", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:296:68\n100 - percentOfTotal\n^\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:175:9\ntotalTokens -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:222:3\ntotalTokens+=value\n^\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:176:9\ntotalMigrated += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:221:3\nbalances[invest]+=value\n^\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:296:36\ntotalTokens * percentOfTotal\n^\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:114:13\nbalances[_to] += _value\n^", 
+ "money_concurrency": "\nFlow 1:\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:302:14\nmaster.send(this.balance)\n^\nFlow 2:\n/home/users/cferreira/Osiris/tokens_source/0x63e634330a20150dbb61b15648bc73855d6ccf07.sol:BlocklancerToken:322:14\nmsg.sender.send(ethValue)\n^", 
+ "truncation": false
+}}

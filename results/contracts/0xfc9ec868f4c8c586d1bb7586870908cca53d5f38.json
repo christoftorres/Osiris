@@ -1,0 +1,20 @@
+{
+ "execution_paths": "201", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "807.270238161", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Ia_store_1 + some_var_171, Id_22]\nOutput: [Ia_store_1 + some_var_171*Id_22]", 
+ "money_concurrency": true, 
+ "truncation": "\nOpcode: AND\nInput: [340282366920938463463374607431768211455L, Id_19]\nOutput: [Concat(0, Extract(127, 0, Id_19))]"
+}

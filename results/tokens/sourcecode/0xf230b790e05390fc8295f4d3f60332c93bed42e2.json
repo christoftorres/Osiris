@@ -1,0 +1,20 @@
+{"TronToken":{
+ "execution_paths": "59", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "29.5304038525", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0xf230b790e05390fc8295f4d3f60332c93bed42e2.sol:TronToken:82:9\nbalanceOf[0x0] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

@@ -1,0 +1,20 @@
+{"OysterPearl":{
+ "execution_paths": "162", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "49.3798470497", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:160:46\nuint256(decimals) - accuracy\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:142:43\nuint256(decimals) - accuracy\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:447:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:417:9\ntotalSupply -= _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:141:43\nuint256(decimals) - accuracy\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:140:47\nuint256(decimals) - accuracy\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:310:21\nbalances[_to] + _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:140:23\nclaimAmountSet * 10 ** (uint256(decimals) - accuracy)\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:141:21\npayAmountSet * 10 ** (uint256(decimals) - accuracy)\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:138:36\npayAmountSet + feeAmountSet\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:142:21\nfeeAmountSet * 10 ** (uint256(decimals) - accuracy)\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:160:24\nretentionSet * 10 ** (uint256(decimals) - accuracy)\n^", 
+ "money_concurrency": false, 
+ "truncation": "\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:137:5\nfunction amendClaim(uint8 claimAmountSet, uint8 payAmountSet, uint8 feeAmountSet, uint8 accuracy) public onlyDirector returns (bool success) {\r\n^\n/home/users/cferreira/Osiris/tokens_source/0x1844b21593262668b7248d0f57a220caaba46ab9.sol:OysterPearl:158:5\nfunction amendRetention(uint8 retentionSet, uint8 accuracy) public onlyDirector returns (bool success) {\r\n^"
+}}

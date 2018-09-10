@@ -1,0 +1,18 @@
+{
+ "execution_paths": "12", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_Concat(0, Extract(255, 4, Id_12)), some_var_55]\nOutput: [bvudiv_i(Ia_store_Concat(0, Extract(255, 4, Id_12)),\n         some_var_55)]", 
+ "execution_time": "87.223307848", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: MUL\nInput: [1766847064778384329583297500742918515827483896875618958121606201292619776L, bvudiv_i(Ia_store_Concat(0, Extract(255, 4, Id_12)),\n         some_var_55)]\nOutput: [1766847064778384329583297500742918515827483896875618958121606201292619776*\nbvudiv_i(Ia_store_Concat(0, Extract(255, 4, Id_12)),\n         some_var_55)]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

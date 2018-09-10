@@ -1,0 +1,22 @@
+{
+ "execution_paths": "108", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "7.87992787361", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_2, Id_13]\nOutput: [Ia_store_2 + Id_13]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

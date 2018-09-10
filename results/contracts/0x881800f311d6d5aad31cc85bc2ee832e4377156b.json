@@ -1,0 +1,31 @@
+{
+ "execution_paths": "45", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "86.9425859451", 
+ "signedness": false, 
+ "evm_code_coverage": "99.2", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "NOT ", 
+  "AND ", 
+  "CALLER ", 
+  "OR ", 
+  "DUP2 ", 
+  "SSTORE ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "POP ", 
+  "DUP1 ", 
+  "SLOAD ", 
+  "PUSH20 0xffffffffffffffffffffffffffffffffffffffff "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

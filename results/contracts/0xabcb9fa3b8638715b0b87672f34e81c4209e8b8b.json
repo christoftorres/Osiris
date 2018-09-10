@@ -1,0 +1,18 @@
+{
+ "execution_paths": "69", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "5.23487710953", 
+ "signedness": "\nOpcode: SGT\nInput: [Id_9, 170141183460469231731687303715884105727L]\nOutput: [If(Id_9 <= 170141183460469231731687303715884105727, 0, 1)]\nOpcode: SGT\nInput: [Id_3, 170141183460469231731687303715884105727L]\nOutput: [If(Id_3 <= 170141183460469231731687303715884105727, 0, 1)]\nOpcode: SLT\nInput: [mem_[352], 0]\nOutput: [If(0 <= mem_[352], 0, 1)]\nOpcode: SGT\nInput: [mem_[384], Ia_store_23245254953224523582127483258778287375847559931861904275336368830652694681282 +\nIs]\nOutput: [If(mem_[384] <=\n   Ia_store_23245254953224523582127483258778287375847559931861904275336368830652694681282 +\nIs,\n   0,\n   1)]\nOpcode: SGT\nInput: [Id_14, 170141183460469231731687303715884105727L]\nOutput: [If(Id_14 <= 170141183460469231731687303715884105727, 0, 1)]\nOpcode: SGT\nInput: [Id_12, 170141183460469231731687303715884105727L]\nOutput: [If(Id_12 <= 170141183460469231731687303715884105727, 0, 1)]\nOpcode: SGT\nInput: [Ia_store_2 + mem_[352], 170141183460469231731687303715884105727L]\nOutput: [If(Ia_store_2 + mem_[352] <=\n   170141183460469231731687303715884105727,\n   0,\n   1)]\nOpcode: SLT\nInput: [Ia_store_8763638472773768691201326883407021568462294246273894496415427229083082408032 +\nIs, mem_[352]]\nOutput: [If(mem_[352] <=\n   Ia_store_8763638472773768691201326883407021568462294246273894496415427229083082408032 +\nIs,\n   0,\n   1)]", 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

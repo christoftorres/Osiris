@@ -1,0 +1,20 @@
+{
+ "execution_paths": "109", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "132.594623089", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Concat(0, Extract(63, 0, Id_15)), Ia_store_1]\nOutput: [Concat(0, Extract(63, 0, Id_15)) + Ia_store_1]\nOpcode: ADD\nInput: [Ia_store_1, Concat(0, Extract(63, 0, Id_8))]\nOutput: [Ia_store_1 + Concat(0, Extract(63, 0, Id_8))]\nOpcode: ADD\nInput: [Concat(0,\n       Extract(191,\n               128,\n               Ia_store_47093988964779718826083916983328367143101522791844586441942193748365410203156)), Concat(0, Extract(63, 0, Id_8))]\nOutput: [Concat(0,\n       Extract(191,\n               128,\n               Ia_store_47093988964779718826083916983328367143101522791844586441942193748365410203156)) +\nConcat(0, Extract(63, 0, Id_8))]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

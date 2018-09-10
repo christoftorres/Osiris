@@ -1,0 +1,18 @@
+{
+ "execution_paths": "96", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "432.82820487", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_10, 60]\nOutput: [60*Id_10]\nOpcode: ADD\nInput: [IH_s, 60*Id_10]\nOutput: [IH_s + 60*Id_10]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

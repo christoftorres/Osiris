@@ -1,0 +1,24 @@
+{
+ "execution_paths": "76", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1800.02759695", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": true, 
+ "dead_code": [
+  "SWAP4 ", 
+  "POP ", 
+  "POP ", 
+  "POP ", 
+  "POP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Concat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[128 + Id_12])))), some_var_11]\nOutput: [some_var_11*\nConcat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[128 + Id_12]))))]\nOpcode: MUL\nInput: [8, 115792089237316195423570985008687907853269984665640564039457584007913129639935 +\nId_13]\nOutput: [115792089237316195423570985008687907853269984665640564039457584007913129639928 +\n8*Id_13]\nOpcode: ADD\nInput: [some_var_11*\nConcat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[128 + Id_12])))), some_var_12*\nConcat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[129 + Id_12]))))]\nOutput: [some_var_11*\nConcat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[128 + Id_12])))) +\nsome_var_12*\nConcat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[129 + Id_12]))))]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [some_var_11*\nConcat(0,\n       Extract(255,\n               248,\n               452312848583266388373324160190187140051835877600158453279131187530910662656*\n               Concat(0,\n                      Extract(255, 248, mem_[128 + Id_12])))), 18446744073709551615L]\nOutput: [Concat(0,\n       Extract(63, 0, some_var_11)*\n       Concat(0,\n              Extract(255,\n                      248,\n                      452312848583266388373324160190187140051835877600158453279131187530910662656*\n                      Concat(0,\n                             Extract(255,\n                                     248,\n                                     mem_[128 + Id_12])))))]"
+}

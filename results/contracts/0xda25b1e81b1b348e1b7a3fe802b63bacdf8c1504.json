@@ -1,0 +1,21 @@
+{
+ "execution_paths": "10", 
+ "callstack": true, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.454517126083", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "POP ", 
+  "POP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_12977736357419498940527382864408035163185176289602661808102734929829292124349, Id_12]\nOutput: [Ia_store_12977736357419498940527382864408035163185176289602661808102734929829292124349 +\nId_12]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

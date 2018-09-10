@@ -1,0 +1,75 @@
+{"GUPToken":{
+ "execution_paths": "49", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "25.1038720608", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0xf7b098298f7c69fc14610bf71d5e02c60792894c.sol:GUPToken:169:3\ntotalSupply += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xf7b098298f7c69fc14610bf71d5e02c60792894c.sol:GUPToken:48:13\nbalances[_recipient] + _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xf7b098298f7c69fc14610bf71d5e02c60792894c.sol:GUPToken:168:3\nilliquidBalance[_recipient] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xf7b098298f7c69fc14610bf71d5e02c60792894c.sol:GUPToken:157:3\ntotalSupply += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0xf7b098298f7c69fc14610bf71d5e02c60792894c.sol:GUPToken:156:3\nbalances[_recipient] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"SafeMath":{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.0088038444519", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "19", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.89695215225", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0xf7b098298f7c69fc14610bf71d5e02c60792894c.sol:StandardToken:48:13\nbalances[_recipient] + _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardTokenProtocol":{
+ "execution_paths": "14", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.25226688385", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

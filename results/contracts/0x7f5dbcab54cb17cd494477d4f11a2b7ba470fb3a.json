@@ -1,0 +1,24 @@
+{
+ "execution_paths": "190", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "68.4548401833", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "SWAP4 ", 
+  "INVALID 0xcd ", 
+  "INVALID 0xeb ", 
+  "PUSH17 0x8b7545dc668eb9280176169d1c33cfd8ed "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [Id_8, 340282366920938463463374607431768211455L]\nOutput: [Concat(0, Extract(127, 0, Id_8))]"
+}

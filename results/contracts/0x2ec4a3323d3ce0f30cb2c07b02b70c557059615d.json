@@ -1,0 +1,18 @@
+{
+ "execution_paths": "3", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "76.4316520691", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [1, Id_3]\nOutput: [1 + Id_3]\nOpcode: ADD\nInput: [1 + Id_3, Concat(0, Extract(255, 1, some_var_15))]\nOutput: [1 + Id_3 + Concat(0, Extract(255, 1, some_var_15))]\nOpcode: ADD\nInput: [1 + Id_3 + Concat(0, Extract(255, 1, some_var_15)), bvudiv_i(some_var_14, 6)]\nOutput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6)]\nOpcode: ADD\nInput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6), bvudiv_i(some_var_13, 24)]\nOutput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6) +\nbvudiv_i(some_var_13, 24)]\nOpcode: ADD\nInput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6) +\nbvudiv_i(some_var_13, 24), bvudiv_i(some_var_12, 120)]\nOutput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6) +\nbvudiv_i(some_var_13, 24) +\nbvudiv_i(some_var_12, 120)]\nOpcode: ADD\nInput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6) +\nbvudiv_i(some_var_13, 24) +\nbvudiv_i(some_var_12, 120), bvudiv_i(some_var_11, 208)]\nOutput: [1 +\nId_3 +\nConcat(0, Extract(255, 1, some_var_15)) +\nbvudiv_i(some_var_14, 6) +\nbvudiv_i(some_var_13, 24) +\nbvudiv_i(some_var_12, 120) +\nbvudiv_i(some_var_11, 208)]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

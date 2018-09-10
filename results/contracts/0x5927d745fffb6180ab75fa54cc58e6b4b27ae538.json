@@ -1,0 +1,20 @@
+{
+ "execution_paths": "5", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.155762910843", 
+ "signedness": false, 
+ "evm_code_coverage": "98.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [Id_3, 4294967295]\nOutput: [Concat(0, Extract(31, 0, Id_3))]"
+}

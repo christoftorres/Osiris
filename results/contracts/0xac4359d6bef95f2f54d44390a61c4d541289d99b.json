@@ -1,0 +1,28 @@
+{
+ "execution_paths": "25", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "8.67594909668", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP2 ", 
+  "MSTORE ", 
+  "JUMPDEST ", 
+  "ADD ", 
+  "SWAP2 ", 
+  "POP ", 
+  "PUSH2 0x0464 ", 
+  "JUMP ", 
+  "PUSH1 0x20 "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)) +\nId_8, 18446744073709551616L]\nOutput: [18446744073709551616*\nConcat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)) +\n18446744073709551616*Id_8]\nOpcode: ADD\nInput: [Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)), Id_8]\nOutput: [Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)) +\nId_8]\nOpcode: ADD\nInput: [Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)), Id_8]\nOutput: [Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)) +\nId_8]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [18446744073709551615L, Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818)) +\nId_8]\nOutput: [Concat(0,\n       Extract(127,\n               64,\n               Ia_store_109111413474783867066491554713535228519321910936747639410050730447500875206818) +\n       Extract(63, 0, Id_8))]"
+}

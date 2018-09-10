@@ -1,0 +1,28 @@
+{
+ "execution_paths": "28", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "247.402080059", 
+ "signedness": false, 
+ "evm_code_coverage": "99.2", 
+ "underflow": "\nOpcode: SUB\nInput: [228 + Id_5 + Id_7, 96]\nOutput: [132 + Id_5 + Id_7]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "JUMPDEST ", 
+  "STOP ", 
+  "STOP ", 
+  "JUMPDEST ", 
+  "POP ", 
+  "SWAP1 ", 
+  "JUMP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [228 + Id_5, Id_7]\nOutput: [228 + Id_5 + Id_7]\nOpcode: ADD\nInput: [196L, Id_5]\nOutput: [196 + Id_5]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

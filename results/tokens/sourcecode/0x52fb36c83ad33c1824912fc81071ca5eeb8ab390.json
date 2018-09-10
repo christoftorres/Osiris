@@ -1,0 +1,58 @@
+{"FideliumToken":{
+ "execution_paths": "62", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "41.2243831158", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x52fb36c83ad33c1824912fc81071ca5eeb8ab390.sol:FideliumToken:133:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"TOKENERC20":{
+ "execution_paths": "58", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "40.3220739365", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0x52fb36c83ad33c1824912fc81071ca5eeb8ab390.sol:TOKENERC20:133:9\ntotalSupply -= _value\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"owned":{
+ "execution_paths": "7", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.190305948257", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

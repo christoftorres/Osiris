@@ -1,0 +1,31 @@
+{
+ "execution_paths": "8", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "5.55679297447", 
+ "signedness": false, 
+ "evm_code_coverage": "96.3", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPI ", 
+  "PUSH16 0x6f74212020456d61696c207768697440 ", 
+  "PUSH19 0x73742070726f6a6563742120204d656e74696f ", 
+  "SHA3 ", 
+  "PUSH9 0x61736820616c676f72 ", 
+  "PUSH21 0x6520746f2068656c702074657374206f7572206669 ", 
+  "PUSH10 0x74686d20696e20746865 ", 
+  "PUSH6 0x746865727061 ", 
+  "PUSH15 0x20796f7572206661766f7269746520 ", 
+  "PUSH19 0x74792e696f20666f7220796f757220696e7669 ", 
+  "SHA3 ", 
+  "PUSH6 0x6d61696c2e20 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

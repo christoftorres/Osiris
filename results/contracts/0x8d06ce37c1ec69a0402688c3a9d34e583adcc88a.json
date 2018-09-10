@@ -1,0 +1,24 @@
+{
+ "execution_paths": "27", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "61.5168840885", 
+ "signedness": false, 
+ "evm_code_coverage": "99.7", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "STOP ", 
+  "JUMP ", 
+  "JUMPDEST ", 
+  "POP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_6, Ia_store_100711038166807793886369997264478501761067387883754541487179035942265180425678]\nOutput: [Ia_store_100711038166807793886369997264478501761067387883754541487179035942265180425678*\nId_6]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

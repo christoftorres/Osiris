@@ -1,0 +1,20 @@
+{"Fluz":{
+ "execution_paths": "88", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "5.46252012253", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x954b5de09a55e59755acbda29e1eb74a45d30175.sol:Fluz:105:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x954b5de09a55e59755acbda29e1eb74a45d30175.sol:Fluz:91:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

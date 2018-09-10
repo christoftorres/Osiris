@@ -1,0 +1,27 @@
+{
+ "execution_paths": "3", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.0692250728607", 
+ "signedness": false, 
+ "evm_code_coverage": "94.2", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH19 0x7469616c7d7b7061727469616c5c7665637b74 ", 
+  "PUSH24 0x7d6d61746862667b487d5f7b6d61746862667b777d7d297c ", 
+  "INVALID 0x4c ", 
+  "PUSH22 0x6b652043204475726261636b3a20280c7261637b7061 ", 
+  "PUSH14 0x61746862667b747d7d2b6861747b ", 
+  "PUSH30 0x297c70736928742c77290d616e676c653d282d6d61746862667b487d5f7b ", 
+  "PUSH30 0x7d2b0c7261637b7061727469616c7d7b7061727469616c5c7665637b777d ", 
+  "PUSH17 0x736928742c77290d616e676c652e686174 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

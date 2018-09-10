@@ -1,0 +1,23 @@
+{
+ "execution_paths": "80", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "17.4742429256", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "JUMPDEST ", 
+  "POP ", 
+  "PUSH32 0x666163746f722063616e6e6f74206265206368616e6765640000000000000000 ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_4, 86400]\nOutput: [86400*Id_4]\nOpcode: ADD\nInput: [86400*Id_4, IH_s]\nOutput: [86400*Id_4 + IH_s]", 
+ "money_concurrency": true, 
+ "truncation": false
+}

@@ -1,0 +1,18 @@
+{
+ "execution_paths": "57", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "8.62627696991", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_23, 256]\nOutput: [256*Id_23]\nOpcode: ADD\nInput: [1, Id_13]\nOutput: [1 + Id_13]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

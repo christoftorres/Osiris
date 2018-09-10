@@ -1,0 +1,30 @@
+{
+ "execution_paths": "42", 
+ "callstack": false, 
+ "reentrancy": true, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "12.2137880325", 
+ "signedness": false, 
+ "evm_code_coverage": "99.0", 
+ "underflow": false, 
+ "time_dependency": true, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "INVALID 0xb8 ", 
+  "INVALID 0xb9 ", 
+  "INVALID 0xaa ", 
+  "MSIZE ", 
+  "DIFFICULTY ", 
+  "INVALID 0x24 ", 
+  "ORIGIN ", 
+  "INVALID 0x5c ", 
+  "MSTORE ", 
+  "AND ", 
+  "INVALID 0xe1 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

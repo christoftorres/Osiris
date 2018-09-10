@@ -1,0 +1,20 @@
+{
+ "execution_paths": "164", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "46.8191919327", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Id_11, 1]\nOutput: [1 + Id_11]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [18446744073709551615L, Id_2]\nOutput: [Concat(0, Extract(63, 0, Id_2))]"
+}

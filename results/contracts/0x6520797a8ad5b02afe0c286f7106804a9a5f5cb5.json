@@ -1,0 +1,20 @@
+{
+ "execution_paths": "48", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_78469846343542442363028680824980501212021332975324075417961003849793346933925 +\nConcat(0, Extract(255, 2, Id_5)), some_var_32]\nOutput: [bvudiv_i(Ia_store_78469846343542442363028680824980501212021332975324075417961003849793346933925 +\nConcat(0, Extract(255, 2, Id_5)),\n         some_var_32)]\nOpcode: DIV\nInput: [Ia_store_90743482286830539503240959006302832933333810038750515972785732718729991261126 +\nConcat(0, Extract(255, 2, Id_3)), some_var_30]\nOutput: [bvudiv_i(Ia_store_90743482286830539503240959006302832933333810038750515972785732718729991261126 +\nConcat(0, Extract(255, 2, Id_3)),\n         some_var_30)]\nOpcode: DIV\nInput: [Ia_store_19224855404247632006917173431419498680506051063941070371722880450128577361118 +\nConcat(0, Extract(255, 2, Id_4)), some_var_31]\nOutput: [bvudiv_i(Ia_store_19224855404247632006917173431419498680506051063941070371722880450128577361118 +\nConcat(0, Extract(255, 2, Id_4)),\n         some_var_31)]", 
+ "execution_time": "1062.86405587", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Concat(0,\n       Extract(63,\n               0,\n               bvurem_i(7459906661726825094,\n                        Concat(0, Extract(63, 0, Id_2))))), some_var_2]\nOutput: [some_var_2*\nConcat(0,\n       Extract(63,\n               0,\n               bvurem_i(7459906661726825094,\n                        Concat(0, Extract(63, 0, Id_2)))))]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [18446744073709551615L, bvudiv_i(Ia_store_19224855404247632006917173431419498680506051063941070371722880450128577361118 +\nConcat(0, Extract(255, 2, Id_4)),\n         some_var_31)]\nOutput: [Concat(0,\n       Extract(63,\n               0,\n               bvudiv_i(Ia_store_19224855404247632006917173431419498680506051063941070371722880450128577361118 +\nConcat(0, Extract(255, 2, Id_4)),\n                        some_var_31)))]\nOpcode: AND\nInput: [18446744073709551615L, bvudiv_i(Ia_store_78469846343542442363028680824980501212021332975324075417961003849793346933925 +\nConcat(0, Extract(255, 2, Id_5)),\n         some_var_32)]\nOutput: [Concat(0,\n       Extract(63,\n               0,\n               bvudiv_i(Ia_store_78469846343542442363028680824980501212021332975324075417961003849793346933925 +\nConcat(0, Extract(255, 2, Id_5)),\n                        some_var_32)))]\nOpcode: AND\nInput: [18446744073709551615L, bvudiv_i(Ia_store_90743482286830539503240959006302832933333810038750515972785732718729991261126 +\nConcat(0, Extract(255, 2, Id_3)),\n         some_var_30)]\nOutput: [Concat(0,\n       Extract(63,\n               0,\n               bvudiv_i(Ia_store_90743482286830539503240959006302832933333810038750515972785732718729991261126 +\nConcat(0, Extract(255, 2, Id_3)),\n                        some_var_30)))]"
+}

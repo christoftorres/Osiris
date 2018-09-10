@@ -1,0 +1,20 @@
+{
+ "execution_paths": "226", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "182.211992025", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_40300558140772235424499568713392232160660614005894776449833654690569516689727, Id_13]\nOutput: [Ia_store_40300558140772235424499568713392232160660614005894776449833654690569516689727 +\nId_13]\nOpcode: ADD\nInput: [Ia_store_0, Id_13]\nOutput: [Ia_store_0 + Id_13]", 
+ "money_concurrency": false, 
+ "truncation": false
+}

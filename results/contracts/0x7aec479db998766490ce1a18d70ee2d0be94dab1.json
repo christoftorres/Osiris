@@ -1,0 +1,30 @@
+{
+ "execution_paths": "69", 
+ "callstack": true, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "15.6505150795", 
+ "signedness": false, 
+ "evm_code_coverage": "99.3", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "GAS ", 
+  "INVALID 0xb7 ", 
+  "PUSH 2598 ", 
+  "INVALID 0x26 ", 
+  "SWAP5 ", 
+  "INVALID 0xbe ", 
+  "LOG4 ", 
+  "INVALID 0xce ", 
+  "DIFFICULTY ", 
+  "INVALID 0xa6 ", 
+  "PUSH13 0xc928b5edb82af9bd4992295415 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": true, 
+ "truncation": false
+}

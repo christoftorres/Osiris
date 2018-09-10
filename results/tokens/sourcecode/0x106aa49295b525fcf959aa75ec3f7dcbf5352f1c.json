@@ -1,0 +1,56 @@
+{"RockToken":{
+ "execution_paths": "97", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "4.40077614784", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c.sol:RockToken:62:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c.sol:RockToken:73:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"SafeMath":{
+ "execution_paths": "1", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.00853204727173", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"StandardToken":{
+ "execution_paths": "20", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1.11420583725", 
+ "signedness": false, 
+ "evm_code_coverage": "99.9", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c.sol:StandardToken:62:9\nbalances[_to] += _value\n^\n/home/users/cferreira/Osiris/tokens_source/0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c.sol:StandardToken:73:9\nbalances[_to] += _value\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+}}

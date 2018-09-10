@@ -1,0 +1,22 @@
+{
+ "execution_paths": "82", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "15.2933950424", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP ", 
+  "JUMPDEST ", 
+  "STOP "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_5, 100000000000000000]\nOutput: [100000000000000000*Id_5]\nOpcode: MUL\nInput: [Id_2, 1000000000000000000]\nOutput: [1000000000000000000*Id_2]\nOpcode: MUL\nInput: [Id_7, 1000000000000000000]\nOutput: [1000000000000000000*Id_7]", 
+ "money_concurrency": false, 
+ "truncation": "\nOpcode: AND\nInput: [18446744073709551615L, Id_3]\nOutput: [Concat(0, Extract(63, 0, Id_3))]\nOpcode: AND\nInput: [18446744073709551615L, Id_4]\nOutput: [Concat(0, Extract(63, 0, Id_4))]"
+}

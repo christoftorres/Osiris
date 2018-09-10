@@ -1,0 +1,26 @@
+{
+ "execution_paths": "76", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "3.58694601059", 
+ "signedness": false, 
+ "evm_code_coverage": "99.5", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "INVALID 0xaa ", 
+  "INVALID 0xfb ", 
+  "INVALID 0xa8 ", 
+  "STOP ", 
+  "ADDMOD ", 
+  "INVALID 0xc3 ", 
+  "PUSH26 0xa0afcc32b1a39302f7cb8073359698411ab5fd6e3edb2c02c0b5 "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

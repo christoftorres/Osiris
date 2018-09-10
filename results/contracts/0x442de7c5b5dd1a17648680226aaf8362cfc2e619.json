@@ -1,0 +1,29 @@
+{
+ "execution_paths": "23", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "16.7615091801", 
+ "signedness": false, 
+ "evm_code_coverage": "97.3", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "PUSH1 0x00 ", 
+  "DUP4 ", 
+  "SSTORE ", 
+  "JUMPDEST ", 
+  "DUP4 ", 
+  "PUSH1 0x00 ", 
+  "EQ ", 
+  "ISZERO ", 
+  "PUSH2 0x021d ", 
+  "JUMPI "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}

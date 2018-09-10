@@ -1,0 +1,58 @@
+{"CreditBIT":{
+ "execution_paths": "159", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "186.571764946", 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:130:9\nbalances[msg.sender].avaliableBalance -= realAmount\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:132:9\ntotalAvaliableSupply -= realAmount\n^", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": "\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:200:9\ntotalSupply += _newCreditsIssued\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:201:9\ntotalAvaliableSupply += _newCreditsIssued\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:112:13\nblock.number + _lockForBlocks\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:122:27\n_amount * 10**8\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:133:9\ntotalLockedSupply += realAmount\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:202:9\nbalances[_sender].avaliableBalance += _newCreditsIssued\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:115:32\nblock.number + _lockForBlocks\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:131:9\nbalances[msg.sender].lockedBalance += realAmount\n^\n/home/users/cferreira/Osiris/tokens_source/0xaef38fbfbf932d1aef3b808bc8fbd8cd8e1f8bc5.sol:CreditBIT:119:54\n_amount * 10**8\n^", 
+ "money_concurrency": false, 
+ "truncation": false
+},"ICreditBOND":{
+ "execution_paths": "6", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.132761001587", 
+ "signedness": false, 
+ "evm_code_coverage": "99.4", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+},"IERC20Token":{
+ "execution_paths": "14", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "0.259341001511", 
+ "signedness": false, 
+ "evm_code_coverage": "99.8", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "STOP "
+ ], 
+ "overflow": false, 
+ "money_concurrency": false, 
+ "truncation": false
+}}

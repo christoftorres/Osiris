@@ -1,0 +1,29 @@
+{
+ "execution_paths": "87", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": false, 
+ "division": false, 
+ "execution_time": "1372.59766507", 
+ "signedness": false, 
+ "evm_code_coverage": "99.6", 
+ "underflow": false, 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [
+  "DUP11 ", 
+  "CALLDATALOAD ", 
+  "INVALID 0xac ", 
+  "INVALID 0xfb ", 
+  "INVALID 0xc1 ", 
+  "INVALID 0x5f ", 
+  "INVALID 0xf8 ", 
+  "BYTE ", 
+  "CODECOPY ", 
+  "INVALID 0xae "
+ ], 
+ "overflow": "\nOpcode: MUL\nInput: [Id_15, 256]\nOutput: [256*Id_15]", 
+ "money_concurrency": false, 
+ "truncation": false
+}
