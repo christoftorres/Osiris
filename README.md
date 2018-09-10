@@ -1,7 +1,7 @@
 Osiris
 ======
 
-An analysis tool to detect integer bugs in Ethereum smart contracts
+An analysis tool to detect integer bugs in Ethereum smart contracts. Osiris is based on [Oyente](https://github.com/melonproject/oyente).
 
 ## Quick Start
 
