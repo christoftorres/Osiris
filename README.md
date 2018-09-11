@@ -1,6 +1,8 @@
 Osiris
 ======
 
+![](https://png.icons8.com/color/200/osiris.png)
+
 An analysis tool to detect integer bugs in Ethereum smart contracts
 
 ## Quick Start
