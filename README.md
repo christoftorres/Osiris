@@ -1,7 +1,7 @@
 Osiris
 ======
 
-![](https://png.icons8.com/color/200/osiris.png)
+![](https://img.icons8.com/color/200/000000/osiris.png)
 
 An analysis tool to detect integer bugs in Ethereum smart contracts. Osiris is based on [Oyente](https://github.com/melonproject/oyente).
 
