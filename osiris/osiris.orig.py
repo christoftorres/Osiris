@@ -170,7 +170,6 @@ def main():
     parser.add_argument("--version", action="version", version="Osiris version 0.0.1 - 'Memphis' (Oyente version 0.2.7 - Commonwealth)")
     parser.add_argument(
         "-b", "--bytecode", help="read bytecode in source instead of solidity file.", action="store_true")
-    parser.add_argument("--contract", type=str, help="Contract in Solidity source to analyze; otherwise analyze all.")
 
     parser.add_argument(
         "-j", "--json", help="Redirect results to a json file.", action="store_true")
@@ -289,14 +288,9 @@ def main():
     else:
         # Compile contracts using solc
         contracts = compileContracts(args.source)
-        contract = args.source + ':' + args.contract if args.contract else None
-        if not any(cname==contract for cname,_ in contracts):
-            contract = None
 
         # Analyze each contract
         for cname, bin_str in contracts:
-            if contract is not None and cname != contract:
-                continue
             print("")
             logging.info("Contract %s:", cname)
             processed_evm_file = cname + '.evm'
